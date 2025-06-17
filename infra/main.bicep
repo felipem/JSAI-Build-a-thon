@@ -1,6 +1,5 @@
 targetScope = 'subscription'
-param webapiName string = 'jswebapitest'
-param appServicePlanName string = 'appserviceplan'
+
 @minLength(1)
 @maxLength(64)
 @description('Name of the environment that can be used as part of naming resource convention')
@@ -12,6 +11,8 @@ param location string
 
 param rg string = ''
 param webappName string = 'webapp'
+param webapiName string = 'webapitest'
+param appServicePlanName string = 'appserviceplan'
 
 @description('Location for the Static Web App')
 @allowed(['westus2', 'centralus', 'eastus2', 'westeurope', 'eastasia', 'eastasiastage'])

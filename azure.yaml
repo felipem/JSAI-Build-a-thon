@@ -6,11 +6,11 @@ metadata:
 services:
 
     webapi:
-        project: infra/packages/webapi
+        project: packages/webapi
         host: appservice
         language: js
     webapp:
-        project: infra/packages/webapp
+        project: packages/webapp
         host: staticwebapp
         language: js
         dist: dist

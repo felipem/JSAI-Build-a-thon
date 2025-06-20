@@ -404,3 +404,4 @@ FodyWeavers.xsd
 .env
 .azure
 my-agent.yaml
+packages/agent/my-agent.agent.yaml
